@@ -1,5 +1,5 @@
 """
-Nazir / Sanad — Hajj & Umrah Medical Cargo Visibility Assistant
+Rafd | رفد Medical Cargo Visibility Assistant
 Streamlit app. Facts are found by LOCAL metadata filtering (always accurate).
 An optional OpenAI layer only REPHRASES those verified facts (never invents numbers).
 """
@@ -195,7 +195,7 @@ def llm_rephrase(question, facts, api_key, model="gpt-4o-mini"):
 # ===========================================================================
 # PART 3 — STREAMLIT UI
 # ===========================================================================
-st.set_page_config(page_title="Nazir — Medical Cargo Assistant",
+st.set_page_config(page_title="Rafd | رفد Medical Cargo Visibility Assistant",
                    page_icon="🩺", layout="centered")
 
 st.markdown("""
