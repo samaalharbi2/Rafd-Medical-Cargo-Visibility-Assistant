@@ -212,7 +212,7 @@ div.stButton > button {border-radius: 20px; border:1px solid #cfe6df;
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='hdr'>ناظر · Nazir</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='hdr'> Rafd | رفد</h1>", unsafe_allow_html=True)
 st.markdown("<p class='sub'>مساعد رؤية الشحنات الطبية لموسم الحج والعمرة · "
             "Hajj &amp; Umrah Medical Cargo Visibility Assistant</p>", unsafe_allow_html=True)
 
