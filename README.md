@@ -49,3 +49,18 @@ Optional AI phrasing: add `OPENAI_API_KEY = "sk-..."` under App → Settings →
 **Note (honest limitation):** `logs/` and `data/` files persist locally, but on
 Streamlit Cloud the filesystem is ephemeral — they reset on app restart. For
 permanent storage, connect an external database (future improvement).
+
+## Full RTL / LTR separation
+- The **Arabic page is fully right-to-left**: tabs start from the right, the sidebar
+  moves to the right side, chat input / text fields / metrics / expanders are RTL.
+- The **English page is fully left-to-right** (explicit LTR rules).
+- Technical content (code blocks, data tables) intentionally stays LTR for readability.
+
+## Saudi market alignment
+Saudia Cargo has launched a strategic initiative with the Saudi Food & Drug Authority
+(SFDA) to strengthen pharmaceutical and medical-supply cargo chains — including
+shipping-cost facilitation of up to 50%, backed by IATA CEIV Pharma / CEIV Fresh
+certifications and advanced cold-chain capabilities. Rafd operates in exactly this
+space (pharma-cargo visibility, SFDA clearance follow-up, cold-chain alerts), and Hajj
+operations are moving toward smart digital logistics platforms — the pattern Rafd is
+designed to integrate with.
